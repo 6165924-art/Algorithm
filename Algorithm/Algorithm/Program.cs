@@ -1,4 +1,4 @@
-﻿//Explanations to all the questions, in the answers.md file
+﻿//Explanations to all the questions, in the answers.docx file
 
 //1
 void Question1(int[] arr)
@@ -28,7 +28,7 @@ void Question1(int[] arr)
         Console.Write(arr[i] + ", ");
     Console.WriteLine(arr[end - 1]);
 }
-//2 in the answers.md file
+//2 in the answers.docx file
 
 //3
 void Question3(LinkedList<int> list)
