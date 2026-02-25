@@ -1,4 +1,7 @@
-﻿void Question1(int[] arr)
+﻿//Explanations to all the questions, in the answers.md file
+
+//1
+void Question1(int[] arr)
 {
     int start = 0, end = 1, mabyStart = 0, take = arr[0], noTake = arr[0];
     for (int i = 1; i < arr.Length; i++)
@@ -20,11 +23,14 @@
         noTake = Math.Max(take, noTake);
     }
     Console.WriteLine("the max sum is: " + Math.Max(take, noTake));
-    //חילוץ הפיתרון
+    //Extracting the solution
     for (int i = start; i < end - 1; i++)
         Console.Write(arr[i] + ", ");
     Console.WriteLine(arr[end - 1]);
 }
+//2 in the answers.md file
+
+//3
 void Question3(LinkedList<int> list)
 {
     int[] arr = new int[list.Count];
@@ -60,7 +66,7 @@ void Question3(LinkedList<int> list)
     }
     Console.WriteLine("the naximum is " + max + " elements");
     LinkedList<int> ans = new LinkedList<int>();
-    //חילוץ הפיתרון
+    //Extracting the solution
     int last = max;
     for (int i = tmp.Length - 1; i >= 0; i--)
     {
@@ -77,6 +83,7 @@ void Question3(LinkedList<int> list)
         ans.RemoveFirst();
     }
 }
+//4
 int Question4(int[] arr, int x)
 {
     int count = 0, sum = 0;
@@ -94,14 +101,16 @@ int Question4(int[] arr, int x)
     }
     return count;
 }
+//5
 int Question5(int n, int s, int t)
 {
     return Math.Max(s, t) + 1 - (s + t - n);
 }
 
-//Question1([1, 2, -1, 3, 6, -5, 0, -7, 2]);
-//Question1([1, 2, -1, 3, 6, -5, 0, -7, 2, 10]);
-//Question1([-10, -2, -1, -3, -6, -5, -5, -7, -2, -10]);
+//Examples of running:
+Question1([1, 2, -1, 3, 6, -5, 0, -7, 2]);
+Question1([1, 2, -1, 3, 6, -5, 0, -7, 2, 10]);
+Question1([-10, -2, -1, -3, -6, -5, -5, -7, -2, -10]);
 
 LinkedList<int> l = new LinkedList<int>();
 l.AddFirst(6);
@@ -111,10 +120,10 @@ l.AddFirst(2);
 l.AddFirst(5);
 l.AddFirst(3);
 l.AddFirst(1);
-//Question3(l);
+Question3(l);
 
-//Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3], 10));
-//Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3, 0, 10], 10));
+Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3], 10));
+Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3, 0, 10], 10));
 
 Console.WriteLine(Question5(20, 16, 15));
 Console.WriteLine(Question5(15, 15, 6));
