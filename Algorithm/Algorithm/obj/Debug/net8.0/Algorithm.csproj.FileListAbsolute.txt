@@ -12,3 +12,18 @@ C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגו�
 C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.pdb
 C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.genruntimeconfig.cache
 C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Algorithm\Algorithm\obj\Debug\net8.0\ref\Algorithm.dll
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\bin\Debug\net8.0\Algorithm.exe
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\bin\Debug\net8.0\Algorithm.deps.json
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\bin\Debug\net8.0\Algorithm.runtimeconfig.json
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\bin\Debug\net8.0\Algorithm.dll
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\bin\Debug\net8.0\Algorithm.pdb
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.AssemblyInfo.cs
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.sourcelink.json
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.dll
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\refint\Algorithm.dll
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.pdb
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\Algorithm.genruntimeconfig.cache
+C:\Users\user1\Documents\תכנות - רבקי\מקומות עבודה\אלגוריתמים\Rivka Sitzman\Algorithm\Algorithm\obj\Debug\net8.0\ref\Algorithm.dll

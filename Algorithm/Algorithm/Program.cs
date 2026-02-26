@@ -1,4 +1,6 @@
-﻿//Explanations to all the questions, in the answers.docx file
+﻿using Algorithm;
+
+//Explanations to all the questions, in the answers.docx file
 
 //1
 void Question1(int[] arr)
@@ -28,7 +30,8 @@ void Question1(int[] arr)
         Console.Write(arr[i] + ", ");
     Console.WriteLine(arr[end - 1]);
 }
-//2 in the answers.docx file
+
+//2 - in the Question2 class
 
 //3
 void Question3(LinkedList<int> list)
@@ -78,10 +81,11 @@ void Question3(LinkedList<int> list)
     }
     for (int i = 0; i < ans.Count(); i++)
     {
-        Console.WriteLine(ans.First());
+        Console.Write(ans.First()+", ");
         ans.AddLast(ans.First());
         ans.RemoveFirst();
     }
+    Console.WriteLine();
 }
 //4
 int Question4(int[] arr, int x)
@@ -111,6 +115,16 @@ int Question5(int n, int s, int t)
 Question1([1, 2, -1, 3, 6, -5, 0, -7, 2]);
 Question1([1, 2, -1, 3, 6, -5, 0, -7, 2, 10]);
 Question1([-10, -2, -1, -3, -6, -5, -5, -7, -2, -10]);
+
+Question2 q2 = new Question2();
+q2.Set(1, 8);
+q2.Set(5, 3);
+q2.Set(6, 2);
+q2.SetAll(1);
+q2.Set(6, 7);
+Console.WriteLine(q2.Get(1));
+Console.WriteLine(q2.Get(5));
+Console.WriteLine(q2.Get(6));
 
 LinkedList<int> l = new LinkedList<int>();
 l.AddFirst(6);
