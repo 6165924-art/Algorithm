@@ -34,7 +34,7 @@ void Question1(int[] arr)
 //2 - in the Question2 class
 
 //3
-void Question3(LinkedList<int> list)
+LinkedList<int> Question3(LinkedList<int> list)
 {
     int[] arr = new int[list.Count];
     for (int i = 0; i < list.Count; i++)
@@ -86,6 +86,7 @@ void Question3(LinkedList<int> list)
         ans.RemoveFirst();
     }
     Console.WriteLine();
+    return ans;
 }
 //4
 int Question4(int[] arr, int x)
