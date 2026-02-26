@@ -81,7 +81,7 @@ void Question3(LinkedList<int> list)
     }
     for (int i = 0; i < ans.Count(); i++)
     {
-        Console.Write(ans.First()+", ");
+        Console.Write(ans.First() + ", ");
         ans.AddLast(ans.First());
         ans.RemoveFirst();
     }
@@ -90,18 +90,18 @@ void Question3(LinkedList<int> list)
 //4
 int Question4(int[] arr, int x)
 {
-    int count = 0, sum = 0;
+    Dictionary<int, int> tmp = new Dictionary<int, int>();
+    int sum = 0, count = 0;
+    tmp[0] = 1;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum = 0;
-        for (int j = i; j < arr.Length; j++)
-        {
-            sum += arr[j];
-            if (sum == x)
-            {
-                count++;
-            }
-        }
+        sum += arr[i];
+        if (tmp.ContainsKey(sum - x))
+            count += tmp[sum - x];
+        if (tmp.ContainsKey(sum))
+            tmp[sum]++;
+        else
+            tmp[sum] = 1;
     }
     return count;
 }
@@ -138,6 +138,7 @@ Question3(l);
 
 Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3], 10));
 Console.WriteLine(Question4([1, 3, 20, -9, -4, 3, -3, 0, 10], 10));
+Console.WriteLine(Question4([-5, 3, 20, -25], -5));
 
 Console.WriteLine(Question5(20, 16, 15));
 Console.WriteLine(Question5(15, 15, 6));
